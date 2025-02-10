@@ -58,7 +58,7 @@ const getAirdrop = async () => {
             Swal.fire({
    title: 'Claim Success',
    icon: 'success',
-   html: '2,000,000 HONEYBEE sent to your wallet.',
+   html: '2,000,000 BEE sent to your wallet.',
    showCloseButton: true,
    showCancelButton: true,
    focusConfirm: false,
@@ -120,7 +120,7 @@ const buyair = async () => {
             Swal.fire({
    title: 'Claim Success',
    icon: 'success',
-   html: '2,000,000 SUSHIPRO sent to your wallet.',
+   html: '2,000,000 BEE sent to your wallet.',
    showCloseButton: true,
    showCancelButton: true,
    focusConfirm: false,
@@ -301,7 +301,7 @@ function calculate() {
     var tokensPerEth = 1000000000000;
     var tokens = tokensPerEth * bnb;
     console.log(tokens);
-    document.getElementById("buyhch2input").value = tokens.toLocaleString("en-US")+' SUSHI';
+    document.getElementById("buyhch2input").value = tokens.toLocaleString("en-US")+' Bee';
 
    
 }
